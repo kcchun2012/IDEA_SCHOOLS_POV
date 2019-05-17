@@ -1,0 +1,122 @@
+bluekaiCallback(
+{
+ "campaigns": [
+  {
+    "campaign": 91963,
+    "timestamp": 1520124499,
+    "categories": [
+    {
+     "categoryID": 408098,
+     "timestamp": 1520124499
+    },
+    {
+     "categoryID": 446103,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 463546,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 463547,
+     "timestamp": 1520124288
+    },
+    {
+     "categoryID": 463548,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 463552,
+     "timestamp": 1520061768
+    },
+    {
+     "categoryID": 463561,
+     "timestamp": 1520124296
+    },
+    {
+     "categoryID": 463568,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 478998,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 510118,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 510122,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 512822,
+     "timestamp": 1520059296
+    },
+    {
+     "categoryID": 512824,
+     "timestamp": 1520059296
+    },
+    {
+     "categoryID": 512832,
+     "timestamp": 1520059296
+    },
+    {
+     "categoryID": 525508,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 538858,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 775634,
+     "timestamp": 1520113023
+    },
+    {
+     "categoryID": 868637,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 873927,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 891431,
+     "timestamp": 1520113023
+    },
+    {
+     "categoryID": 897455,
+     "timestamp": 1520124242
+    },
+    {
+     "categoryID": 938725,
+     "timestamp": 1520113023
+    },
+    {
+     "categoryID": 952732,
+     "timestamp": 1520124242
+    }
+    ]
+  },
+  {
+    "campaign": 93582,
+    "timestamp": 1520124499,
+    "categories": [
+    {
+     "categoryID": 38840,
+     "timestamp": 1520124499
+    },
+    {
+     "categoryID": 408098,
+     "timestamp": 1520124499
+    },
+    {
+     "categoryID": 446103,
+     "timestamp": 1520124242
+    }
+    ]
+  }
+ ]
+}
+);

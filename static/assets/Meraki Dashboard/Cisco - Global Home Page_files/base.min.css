@@ -1,0 +1,45 @@
+/*!* AEM Responsive Text Base Definitions v1.6 */.dmr .pri-0,.dmr h1,.dmr .pri-1,.dmr h2,.dmr .pri-2,.dmr h3,.dmr .pri-3,.dmr h4,.dmr .pri-4,.dmr h5,.dmr .pri-5,.dmr h6,.dmr .pri-6,.dmr p,.dmr li,.dmr dd,.dmr dt{font-style:normal;color:#58585b}
+.dmr.light .pri-0,.dmr.light h1,.dmr.light .pri-1,.dmr.light h2,.dmr.light .pri-2,.dmr.light h3,.dmr.light .pri-3,.dmr.light h4,.dmr.light .pri-4,.dmr.light h5,.dmr.light .pri-5,.dmr.light h6,.dmr.light .pri-6,.dmr.light p,.dmr.light li,.dmr.light dd,.dmr.light dt{color:#fff}
+.dmr .pri-0{font-size:32px;line-height:1.188em;margin-bottom:.3125em;font-weight:200}
+.dmr h1,.dmr .pri-1,.dmr h2 .pri-1,.dmr h3 .pri-1,.dmr h4 .pri-1,.dmr p .pri-1{font-size:28px;line-height:1.214em;margin-bottom:.3571em;font-weight:200}
+.dmr h2,.dmr .pri-2,.dmr h2 .pri-2,.dmr h3 .pri-2,.dmr h4 .pri-2,.dmr p .pri-2{font-size:24px;line-height:1.167em;margin-bottom:.625em;font-weight:300}
+.dmr h3,.dmr .pri-3,.dmr h2 .pri-3,.dmr h3 .pri-3,.dmr h4 .pri-3,.dmr p .pri-3,.dmr h3 i,.dmr .pri-3 i,.dmr h3 em,.dmr .pri-3 em{font-size:20px;line-height:1.2em;margin-bottom:.75em;font-weight:300}
+.dmr h4,.dmr .pri-4,.dmr h2 .pri-4,.dmr h3 .pri-4,.dmr h4 .pri-4,.dmr p .pri-4,.dmr h4.bold,.dmr .pri-4.bold,.dmr h5,.dmr .pri-5,.dmr h5.bold,.dmr .pri-5.bold{font-size:20px;line-height:1.2em;margin-bottom:.75em;font-weight:300}
+.dmr p,.dmr p a,.dmr p i,.dmr p em,.dmr h6,.dmr .pri-6,.dmr h2 .pri-6,.dmr h3 .pri-6,.dmr h4 .pri-6,.dmr p .pri-6,.dmr h6.bold,.dmr .pri-6.bold,.dmr dd,.dmr dt{font-size:16px;line-height:1.375em;margin-bottom:.9375em;font-weight:300}
+.dmr li,.dmr li a{font-size:16px;line-height:1.25em;margin-bottom:.625em;font-weight:300}
+.dmr li a{font-weight:400}
+.dmr p.util{font-size:14px;line-height:1.286em;margin-bottom:.714em;font-weight:300}
+.dmr p b,.dmr p strong,.dmr p.util b,.dmr p.util strong{font-weight:400}
+.dmr p a,.dmr p.util a,.dmr li a,.dmr h2 a,.dmr h3 a,.dmr h4 a{color:#007fab;text-decoration:none}
+.dmr.light p a,.dmr.light p.util a,.dmr.light li a,.dmr.light h2 a,.dmr.light h3 a,.dmr.light h4 a{color:#fff}
+.no-touch .dmr.light p a:hover,.no-touch .dmr.light p.util a:hover,.no-touch .dmr.light h2 a:hover,.no-touch .dmr.light h3 a:hover,.no-touch .dmr.light h4 a:hover,.no-touch .dmr.light li a:hover{color:#fff;border-bottom:1px solid}
+.no-touch .dmr p a:hover.dotted,.no-touch .dmr p.util a:hover.dotted,.no-touch .dmr li a:hover.dotted,.no-touch .dmr h2 a:hover.dotted,.no-touch .dmr h3 a:hover.dotted,.no-touch .dmr h4 a:hover.dotted,.no-touch .dmr.light p a:hover.dotted,.no-touch .dmr.light p.util a:hover.dotted,.no-touch .dmr.light li a:hover.dotted,.no-touch .dmr.light h2 a:hover.dotted,.no-touch .dmr.light h3 a:hover.dotted,.no-touch .dmr.light h4 a:hover.dotted{border-bottom:1px solid #049fd9}
+.dmr p a.dotted,.dmr p.util a.dotted,.dmr li a.dotted,.dmr h2 a.dotted,.dmr h3 a.dotted,.dmr h4 a.dotted,.dmr.light p a,.dmr.light p.util a,.dmr.light li a,.dmr.light h2 a,.dmr.light h3 a,.dmr.light h4 a{border-bottom:1px dotted}
+.no-touch .dmr p a:hover,.no-touch .dmr p.util a:hover,.no-touch .dmr h2 a:hover,.no-touch .dmr h3 a:hover,.no-touch .dmr h4 a:hover,.no-touch .dmr li a:hover{color:#049fd9;text-decoration:none}
+.dmr h3 i,.dmr .pri-3 i,.dmr h3 em,.dmr .pri-3 em{font-style:italic}
+.dmr li:last-child,.dmr dd:last-child{margin-bottom:0}
+.dmr hr{height:1px;border:0;background-color:#ccc;color:#ccc;font-size:14px;margin-bottom:1.429em}
+.dmr ul,.dmr ol,.dmr dl{margin-bottom:1.429em}
+.dmr ul{list-style-type:disc}
+.dmr ul.no-bullets{list-style-type:none}
+.dmr ol{list-style-type:decimal}
+.dmr ul li{margin-left:14px}
+.dmr ul.no-bullets li{margin-left:0}
+.dmr ol li{margin-left:20px}
+.dmr dt{clear:left;float:left;margin-right:6px;color:#444}
+.dmr dd{margin-bottom:14px}
+html[dir="rtl"] .dmr ul li{margin-right:14px;margin-left:0}
+html[dir="rtl"] .dmr ol li{margin-right:20px;margin-left:0}
+html[dir="rtl"] .dmr ul.no-bullets li{margin-right:0}
+@media only screen and (min-width:37.5em){.dmr .pri-0{font-size:46px;line-height:1.217em;margin-bottom:.2174em}
+.dmr h1,.dmr .pri-1,.dmr h2 .pri-1,.dmr h3 .pri-1,.dmr h4 .pri-1,.dmr p .pri-1{font-size:36px;line-height:1.222em;margin-bottom:.2778em}
+.dmr h2,.dmr .pri-2,.dmr h2 .pri-2,.dmr h3 .pri-2,.dmr h4 .pri-2,.dmr p .pri-2{font-size:28px;line-height:1.214em;margin-bottom:.7143em;font-weight:200}
+.dmr h3,.dmr .pri-3,.dmr h2 .pri-3,.dmr h3 .pri-3,.dmr h4 .pri-3,.dmr p .pri-3,.dmr h3 i,.dmr .pri-3 i,.dmr h3 em,.dmr .pri-3 em{font-size:22px;line-height:1.273em;margin-bottom:.9091em;font-weight:100}
+.dmr h4,.dmr .pri-4,.dmr h2 .pri-4,.dmr h3 .pri-4,.dmr h4 .pri-4,.dmr p .pri-4,.dmr h4.bold,.dmr .pri-4.bold{font-size:20px;line-height:1.2em;margin-bottom:1em}
+.dmr p,.dmr h6,.dmr .pri-6,.dmr h2 .pri-6,.dmr h3 .pri-6,.dmr h4 .pri-6,.dmr p .pri-6,.dmr h6.bold,.dmr .pri-6.bold{line-height:1.5em}
+}
+@media only screen and (min-width:48em){.dmr .pri-0{font-size:60px;line-height:1.2em;margin-bottom:.1667em}
+.dmr h1,.dmr .pri-1,.dmr h2 .pri-1,.dmr h3 .pri-1,.dmr h4 .pri-1,.dmr p .pri-1{font-size:40px;line-height:1.2em;margin-bottom:.25em}
+.dmr h2,.dmr .pri-2,.dmr h2 .pri-2,.dmr h3 .pri-2,.dmr h4 .pri-2,.dmr p .pri-2{font-size:36px;line-height:1.222em;margin-bottom:.5556em}
+.dmr h3,.dmr .pri-3,.dmr h2 .pri-3,.dmr h3 .pri-3,.dmr h4 .pri-3,.dmr p .pri-3,.dmr h3 i,.dmr .pri-3 i,.dmr h3 em,.dmr .pri-3 em{font-size:24px;line-height:1.25em;margin-bottom:.8333em}
+}

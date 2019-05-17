@@ -1,0 +1,57 @@
+<!doctype html>
+<header>
+  <style>
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+</style>
+</header>
+
+<h1> Devices </h1>
+<table>
+
+<thead>
+  <tr>
+    <th>Network</th>
+    <th>MAC</th>
+    <th>Name</th>
+    <th>Port</th>
+    <th>System Name(lldp)</th>
+    <th>Address(cdp)</th>
+  </tr>
+</thead>
+<tbody>
+  {% for x in devices %}
+  <tr>
+    <td>{{ x['network'] }}</td>
+    <td>{{ x['MAC'] }}</td>
+    <td>{{ x['name'] }}</td>
+    {% for y, z in x['port'].iteritems() %}
+    <td>{{ y }}</td>
+    {% if 'lldp' in z %}
+    <td>{{ z['lldp']['systemName'] }}</td>
+    {% else %}
+    <td>N/A</td>
+    {% endif %}
+    {% if 'cdp' in z %}
+    <td>{{ z['cdp']['address'] }}</td>
+    <tr><td></td><td></td><td></td>
+    {% else %}
+    <td>N/A</td>
+    <tr><td></td><td></td><td></td>
+    {% endif %}
+
+
+    {% endfor %}
+  </tr>
+  {% endfor %}
+
+</tbody>
+
+
+
+
+
+
+</table>

@@ -1,0 +1,10 @@
+/*!* Homepage Overrides v1.6 */
+/*
+ * v1.5 - Emptied the Overrides
+ */
+ 
+ @media only screen and (min-width: 64em) {
+.dmh-mosaic-tile.medium.var-2 .mosaic-content {
+padding: 40px 25px;
+}
+}

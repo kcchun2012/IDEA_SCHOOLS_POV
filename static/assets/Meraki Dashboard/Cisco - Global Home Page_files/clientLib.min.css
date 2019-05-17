@@ -1,0 +1,75 @@
+/*!* DM Team - Responsive Blade Component v1.15 */.dmc-blade,.dmc-blade *{box-sizing:border-box}
+.dmc-blade.row.full.blowout{max-width:1440px;margin:0 auto}
+.dmc-blade>.col>.row>.col>.blade-header,.dmc-blade>.col>.row>.col>.blade-description{padding-left:10px;padding-right:10px}
+.dmc-blade.row.full.blowout.full-width{max-width:100%}
+.dmc-blade.row.full.blowout.no-padding{padding:0}
+.dmc-blade.row.full.blowout.top-padding{padding-top:20px}
+.dmc-blade .blade-header,.dmc-blade .blade-description{text-align:center}
+.dmc-blade.header-left .blade-header,.dmc-blade.description-left .blade-description{text-align:left}
+.dmc-blade .blade-header h2{margin-top:50px}
+.dmc-blade>.col>.row>.col>.cta{clear:both;padding:20px 10px;text-align:center;margin-bottom:0}
+.dmc-blade>.col>.row>.col>.cta li{display:block;margin-bottom:20px;margin-left:0}
+.cdc-transform .dmc-blade.row.full.blowout{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;max-width:1600px}
+.dmc-blade.description-center>.col>.row>.col>.blade-description li{list-style-position:inside}
+.ie .dmc-blade.row.full .row{overflow:hidden}
+.cdc-transform .dmc-blade>.col>.row>.col>.blade-header,.cdc-transform .dmc-blade>.col>.row>.col>.blade-description{padding-left:0;padding-right:0}
+.cdc-transform .dmc-blade>.col>.row>.col>.cta{padding-left:0;padding-right:0}
+html[dir='rtl'] .dmc-blade.header-left .blade-header,html[dir='rtl'] .dmc-blade.description-left .blade-description{text-align:right}
+html[dir='rtl'] .dmc-blade>.col>.row>.col>.cta>li{margin-right:0;margin-left:0}
+@media only screen and (min-width:37.5em){.dmc-blade>.col>.row>.col>p{line-height:1.5em}
+.dmc-blade>.col>.row>.col>.cta{padding:30px 0}
+.dmc-blade>.col>.row>.col>.blade-header,.dmc-blade>.col>.row>.col>.blade-description{padding-left:0;padding-right:0}
+.dmc-blade.cta-left>.col>.row>.col>.cta{text-align:left}
+.dmc-blade.cta-right>.col>.row>.col>.cta{text-align:right}
+.dmc-blade>.col>.row>.col>.cta li{display:inline-block;margin-right:20px}
+html[dir='rtl'] .dmc-blade.cta-left>.col>.row>.col>.cta{text-align:right}
+html[dir='rtl'] .dmc-blade.cta-right>.col>.row>.col>.cta{text-align:left}
+html[dir='rtl'] .dmc-blade>.col>.row>.col>.cta>li{margin-right:0;margin-left:20px}
+}
+@media only screen and (min-width:48em){.dmc-blade>.col>.row>.col>.cta{padding-bottom:40px}
+}
+/*!* Casestudy blade v2.1
+* v2.1 - Removed height for image in IE browser and add max width for known IE image height issue
+* v2.0 - Fixed horizontal scroll bar issue for pull quote within case study blade
+* v1.9 - Added overrides for new grids
+* v1.8 - Fixed Case Study Blade - Less Spacing between CTAs with Text with Play Icon Option
+* v1.7 - Fixed Bottom spacing issue in mobile breakpoint.
+* v1.6 - Fixed lightbox clicking issue.
+* v1.5 - Implemented RTL
+* v1.4 - Fixed Font weight for Secondary CTA.
+* v1.3 - Fixed Alignment issue of the CTA links when we select Primary CTA as "Text" in Medium and Small breakpoints.
+* v1.2 - Removed Extra bottom space for IE 11
+* v1.1 - Reverted typography default link behavior to be without dotted line.
+* v1.0 - Initial Check-in
+*
+*/.dmc-casestudyblade,.dmc-casestudyblade *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.dmc-casestudyblade{width:100%;padding:20px}
+.dmc-casestudyblade .dmc-image,.dmc-casestudyblade .dmc-content{width:100%;margin-bottom:20px}
+.dmc-casestudyblade .dmc-image img{width:100%;height:auto}
+.dmc-casestudyblade h2{color:#39393b;font-family:CiscoSans,"Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Nimbus Sans L",sans-serif;font-style:normal;font-weight:100;margin:30px 0 20px;line-height:1.167em;text-align:center;font-size:24px}
+.dmc-casestudyblade .dmc-content a.casestudy-link{font-family:CiscoSans,"Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Nimbus Sans L",sans-serif;font-size:16px;line-height:1.375em;font-style:normal;font-weight:400;display:inline-block;outline:0}
+.dmc-casestudyblade .dmc-pullquote{padding:0}
+.dmc-content p{margin-bottom:18px}
+.dmc-casestudyblade .dmc-content a.play-cta{margin-bottom:0}
+.dmc-casestudyblade .dmc-content a.casestudy-link{color:#007fab;text-decoration:none}
+.dmc-casestudyblade .dmc-content .lightbox-link{display:table}
+.no-touch .dmc-casestudyblade .dmc-content a.casestudy-link:hover{color:#049fd9;text-decoration:none}
+.row.full.blowout.pal-2 .dmc-casestudyblade .dmc-content a.casestudy-link{color:#fff;border-bottom:1px dotted;text-decoration:none}
+.no-touch .row.full.blowout.pal-2 .dmc-casestudyblade .dmc-content a.casestudy-link:hover{color:#fff;border-bottom:1px solid}
+.row.full.blowout.pal-1 .dmc-casestudyblade h2,.row.full.blowout.pal-1 .dmc-casestudyblade .dmc-content .dmc-pullquote .quote,.row.full.blowout.pal-1 .dmc-casestudyblade .dmc-content .dmc-pullquote .attribution{color:#56565b}
+.row.full.blowout.pal-2 .dmc-casestudyblade h2,.row.full.blowout.pal-2 .dmc-casestudyblade .dmc-content .dmc-pullquote .quote,.row.full.blowout.pal-2 .dmc-casestudyblade .dmc-content .dmc-pullquote .attribution{color:#fff}
+html[dir='rtl'] .dmc-casestudyblade .dmc-image{float:right;padding:0}
+.cdc-transform .dmc-casestudyblade{padding:20px 0}
+.cdc-transform .container.grid .col .dmc-casestudyblade .dmc-pullquote{width:100%}
+@media only screen and (min-width:37.5em){.dmc-casestudyblade{width:100%;padding:20px 0}
+.dmc-casestudyblade h2{font-size:28px;line-height:1.214em}
+.dmc-casestudyblade .dmc-image{float:left;margin-bottom:20px;width:50%;padding-right:10px}
+.dmc-casestudyblade .dmc-content{float:left;width:50%;padding-left:10px}
+.dmc-casestudyblade .dmc-content a.casestudy-link{line-height:1.5em;margin-bottom:20px}
+html[dir='rtl'] .dmc-casestudyblade .dmc-image{padding:0 0 0 10px}
+}
+@media only screen and (min-width:48em){.dmc-casestudyblade h2{font-size:36px;line-height:1.222em;margin:25px 0}
+}
+@media only screen and (min-width:64em){.gt-ie10 .dmc-casestudyblade .dmc-image img{width:100%;max-width:512px}
+.gt-ie10 .cdc-transform .dmc-casestudyblade .dmc-image img{max-width:629px}
+}

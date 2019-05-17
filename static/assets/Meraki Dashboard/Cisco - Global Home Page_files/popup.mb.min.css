@@ -1,0 +1,11 @@
+/*
+ * popup.mb.min.css
+ * $Revision: 1.2 $
+ *
+ * masterbrand framework stylesheet for popups
+ *
+ * (c) 1992-2012 Cisco Systems, Inc. All rights reserved. 
+ * Terms and Conditions: http://cisco.com/en/US/swassets/sw293/sitewide_important_notices.html
+ */
+
+body.cdc-fw{background:none;}#fw-mb{background:none;padding:0 15px;}#fw-mb-w1{width:auto;}#fw-mb #popup-wrapper{position:relative;}#fw-mb #fw-banner{color:#b4b4b4;padding-right:0;}#fw-mb #fw-banner a:link,#fw-mb #fw-banner a:visited,#fw-mb #fw-banner a:active{color:#007fc5;}#fw-mb #fw-banner a:hover{text-decoration:underline;}#fw-mb #popup-banner{display:table;position:relative;height:64px;min-height:64px;width:100%;}#ie7 #fw-mb #popup-banner{height:auto;zoom:1;}#fw-mb #popup-banner #popup-logo{position:absolute;top:6px;width:60px;height:50px;background:transparent url(/web/fw/i/logo_60x50.jpg) 0 0 no-repeat;}#fw-mb #popup-banner #popup-logo a{position:absolute;width:100%;height:100%;font-size:0;color:transparent!important;}#ie7 #fw-mb #popup-banner #popup-logo a{text-indent:-1000px;overflow:hidden;}#fw-mb #popup-banner h1,#fw-mb #popup-banner h2{display:table-cell;vertical-align:middle;padding:15px 0 3px 80px;font-size:18px;font-weight:normal;color:#444;}#ie7 #fw-mb #popup-banner h1{padding-top:28px;margin-bottom:0;}#fw-mb #popup-content{border:1px solid #eaeaea;border-width:1px 0;display:table;width:100%;}#fw-mb #popup-content-padding{margin:30px 0;}#fw-mb-w1 #framework-footer{margin:0;border-top:none;}#fw-mb #framework-footer{padding-left:0;color:#b4b4b4;}#fw-mb #fw-footer a:link,#fw-mb #fw-footer a:visited,#fw-mb #fw-footer a:active{color:#007fc5;}#fw-mb #footer-legal{position:relative;left:-2px;zoom:1;}

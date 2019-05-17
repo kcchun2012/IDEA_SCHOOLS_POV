@@ -1,0 +1,144 @@
+
+<!-- Page to select two time intervals to compare port configurations -->
+
+<!doctype html>
+<html class="cui" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Devices</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/cui-standard.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='public/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/cui-styleguide.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='public/css/featherlight.min.css') }}">
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='public/js/styleguide.js') }}"></script>
+    <script src="{{ url_for('static', filename='public/js/jquery-scrollto.js') }}"></script>
+    <script src="{{ url_for('static', filename='public/js/clipboard.js') }}"></script>
+    <script src="{{ url_for('static', filename='public/js/featherlight.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='public/js/Markdown.Converter.js') }}"></script>
+    <script>
+
+    </script>
+    <style>
+    #select{
+      width:125px;
+      height: 25px;
+    }
+    option{
+      font-size: 20px;
+    }
+    </style>
+</head>
+    <body>
+        <div class="content-fluid">
+
+            <main>
+                <header class="header">
+                    <div class="header-bar container">
+                        <a href="/" class="btn btn--small btn--icon toggle-menu">
+                            <span class="icon-list-menu"></span>
+                        </a>
+                        <a class="header-bar__logo">
+                            <span class="icon-cisco"></span>
+                        </a>
+                        <div class="header-bar__main">
+                            <div class="header-breadcrumbs">
+                                <ul class="breadcrumb">
+                                    <li><a>Operate</a></li>
+                                    <li><a>Devices</a></li>
+                                    <li><span>Discovery</span></li>
+                                </ul>
+                            </div>
+                            <div class="header-heading">
+                                <h1 class="page-title">Meraki PoV</h1>
+                            </div>
+                        </div>
+                        <div class="header-toolbar">
+                            <a href="compareDevicesConnected">
+                                Compare Devices
+                            </a>
+                            <a href="/">
+                              View Devices
+                            </a>
+
+
+                        </div>
+                    </div>
+                </header>
+                <div class="content">
+                    <div class="container">
+                        <div class="section">
+                            <h1><a href='https://account.meraki.com/secure/login/dashboard_login' target="_blank">Devices</a></h1>
+
+                        </div>
+
+                        <div>
+                          <form method="POST" action="/compareDevicesConnected">
+                            <div class="form-group">
+                              <h2>
+                              Select First Time
+                            </h2>
+                              <select name="time1" name='select' id='select'>
+                                    <option>2 Hr</option>
+                                    <option>4 Hr</option>
+                                    <option>8 Hr</option>
+                                    <option>24 Hr</option>
+                                    <option>48 Hr</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <h2>
+                              Select Second Time
+                            </h2>
+                              <select name="time2" name='select' id='select'>
+                                    <option>2 Hr</option>
+                                    <option>4 Hr</option>
+                                    <option>8 Hr</option>
+                                    <option>24 Hr</option>
+                                    <option>48 Hr</option>
+                                    <option>1 Week</option>
+                                    <option>2 Weeks</option>
+
+                              </select>
+                            </div>
+
+                            <input class="btn btn-primary" type="submit" value="submit">
+                          </form>
+                        </div>
+
+
+                        <div class="row base-margin-top">
+
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer footer--new">
+                    <div class="footer__links">
+                        <ul class="list">
+                            <li><a href="http://www.cisco.com/cisco/web/siteassets/contacts/index.html" target="_blank">Contacts</a></li>
+                            <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ" target="_blank">Feedback</a></li>
+                            <li><a href="http://www.cisco.com/c/en/us/about/sitemap.html" target="_blank">Site Map</a></li>
+                            <li><a href="http://www.cisco.com/web/siteassets/legal/terms_condition.html" target="_blank">Terms & Conditions</a></li>
+                            <li><a href="http://www.cisco.com/web/siteassets/legal/privacy_full.html" target="_blank">Privacy Statement</a></li>
+                            <li><a href="http://www.cisco.com/web/siteassets/legal/privacy_full.html#cookies" target="_blank">Cookie Policy</a></li>
+                            <li><a href="http://www.cisco.com/web/siteassets/legal/trademark.html" target="_blank">Trademarks</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__legal">
+                        <div class="footer__logo">
+                            <a href="http://www.cisco.com" target="_blank">
+                                <span class="icon-cisco"></span>
+                            </a>
+                        </div>
+                        <div class="footer__copyright">
+                            <div>Copyright &copy; 2018 Cisco Systems Inc.</div>
+                            <div>All rights reserved.</div>
+                        </div>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>
